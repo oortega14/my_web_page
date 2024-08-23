@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<header class="header ">
+  <div class="header-container">
+    <a>Home</a>
+    <a>Proyectos</a>
+    <a>Blog</a>
+  </div>
+  <div class="header-container">
+    <a>Redes</a>
+  </div>
+</header>
+<style>
+  .header {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header .header-container {
+    display: flex;
+    justify-content: start;
+    color: white;
+    font-weight: bold; 
+    width: 50%;
+  }
+</style>
